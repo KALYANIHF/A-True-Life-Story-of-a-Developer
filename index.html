@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Life of a Developer</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.1/css/bootstrap.min.css"
+    />
+    <link
+      rel="shortcut icon"
+      href="assets/img/load_icon.png"
+      type="image/x-icon"
+    />
+    <!-- include google font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      ::-webkit-scrollbar {
+        display: none;
+      }
+      html {
+        overflow-x: hidden;
+        overflow: scroll;
+      }
+      :root {
+        --font: "Lato", sans-serif;
+      }
+      * {
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+      }
+      .display-custom {
+        font-size: 22px;
+        font-family: var(--font);
+        font-style: italic;
+        font-weight: 400;
+        letter-spacing: 0.2rem;
+      }
+      .content {
+        text-align: center;
+        box-shadow: 1px 1px 14px rgb(0 0 0 / 0.2);
+        margin: 1rem 0rem;
+        border-radius: 0.4rem;
+      }
+      .heading {
+        margin: 1rem 0rem;
+      }
+      .image {
+        margin: 1.5rem 0rem;
+      }
+    </style>
+  </head>
+  <body data-scroll href="#alpha">
+    <div class="container">
+      <div class="header pt-3 pb-3">
+        <h4 class="display-4 text-center">A True Life Story of a Developer</h4>
+      </div>
+      <div class="content_container"></div>
+    </div>
+    <script src="assets/js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+    <script>
+      var scroll = new SmoothScroll('a[href*="#"]', { speed: 500 });
+    </script>
+  </body>
+</html>
