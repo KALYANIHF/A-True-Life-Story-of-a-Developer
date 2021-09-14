@@ -9,7 +9,6 @@ window.addEventListener("load", () => {
     "when my boss told me that the module i've been working on will never be used:",
     "when i show my boss that i've fixed a bug:",
     "when i upload a code without tests and it works as expected:",
-    "when marketing folks show developers what they've sold:",
     "the first time you apply a css to a web page:",
     "when the sysadmin gives you root access:",
     "when you run your script the first time after several hours working on it:",
@@ -20,6 +19,7 @@ window.addEventListener("load", () => {
     "when you develop without specifications:",
     'when your boss tells you that "tests are for those who don\'t know how to code":',
     "when you update a database script and note that you have deleted the whole database:",
+    "when marketing folks show developers what they've sold:",
   ];
   var generate_html = ``;
   for (let i = 0; i < total_content; i++) {
